@@ -2,7 +2,7 @@
 // Chapter 03, Video 04, Exercise 01 **SOLUTION**
 var _ = require("lodash")
 
-var numbers = [ 3, 5, 7, 9, 11, 13 ]
+var numbers = [ 3, 5, 7, 9, 10, 13 ]
 
 var arrayContainsEven = _.some(numbers, function(element) {
   return element % 2 === 0
